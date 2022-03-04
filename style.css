@@ -1,0 +1,45 @@
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(14, 64, 129);
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover{
+    color: lightblue;
+    font-weight: bold;
+}
+.allcontacts{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid lightgray;
+    
+}
+.allcontacts div{
+   padding: 10px;
+    
+}
+.allcontacts h4{
+    text-align: center;
+    
+}
+nav + h1{
+    text-align: center;
+}
+iframe{
+    margin-left: 300px;
+}
+.forimages{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.forimages img{
+    width: 100%;
+    height: 90%;
+}
